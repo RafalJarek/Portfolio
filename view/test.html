@@ -1,0 +1,20 @@
+<style>
+    span{
+        margin-top:10px;
+  text-decoration:underline;
+  color:red;
+    }
+</style>
+<html>
+    <body>
+    <div>
+        <span>as</span>
+    </div>
+</body>
+    <script>
+    document.querySelector('span').addEventListener('click', function (e) {
+	console.log(e.target.tagName);
+}, true);
+    </script>
+
+</html>
