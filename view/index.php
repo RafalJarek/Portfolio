@@ -242,14 +242,14 @@ if(isset($_POST['email']))
 </section>
 
 <script>
-$("[id$='end-skills']").children().click(function()
-{
-    if ($(this).css('transform') == 'none') {
-      $(this).css({'transform': 'rotatey(360deg)'});
-    } else {
-      $(this).css({'transform': ''});
-    };
-});
+    $("[id$='end-skills']").children().click(function()
+    {
+        if ($(this).css('transform') == 'none') {
+        $(this).css({'transform': 'rotatey(360deg)'});
+        } else {
+        $(this).css({'transform': ''});
+        };
+    });
 </script>
 
 <section id="portfolio">
@@ -276,7 +276,7 @@ $("[id$='end-skills']").children().click(function()
 
         <div id="my-projects-container">
             <a id="project-a-img" href="#project-a-img">
-                <img id="project-img" src="../Img/wkrotce.png"></img>
+                <img id="project-img" src="../Img/wkrotce.png" class="future-project"></img>
                 <div id="description">
                     <div class="text">
                         <p class="p1">Już niebawem</p>
@@ -290,7 +290,7 @@ $("[id$='end-skills']").children().click(function()
 
         <div id="my-projects-container">
             <a id="project-a-img" href="#project-a-img">
-                <img id="project-img" src="../Img/wkrotce.png"></img>
+                <img id="project-img" src="../Img/wkrotce.png" class="future-project"></img>
                 <div id="description">
                     <div class="text">
                         <p class="p1">Już niebawem</p>
@@ -304,7 +304,7 @@ $("[id$='end-skills']").children().click(function()
 
         <div id="my-projects-container">
             <a id="project-a-img" href="#project-a-img">
-                <img id="project-img" src="../Img/wkrotce.png"></img>
+                <img id="project-img" src="../Img/wkrotce.png" class="future-project"></img>
                 <div id="description">
                     <div class="text">
                         <p class="p1">Już niebawem</p>
@@ -389,18 +389,18 @@ $("[id$='end-skills']").children().click(function()
 </section>
 
 <script>
-$('.contact-title').click(function ()
-{
-if($('.contact-form').css('display') =='none')
+    $('.contact-title').click(function ()
     {
-    $('.contact-form').css('display','grid');
+    if($('.contact-form').css('display') =='none')
+        {
+        $('.contact-form').css('display','grid');
+        }
+    else if($('.contact-form').css('display') =='grid')
+        {
+        $('.contact-form').css('display','none');
+        }
     }
-else if($('.contact-form').css('display') =='grid')
-    {
-    $('.contact-form').css('display','none');
-    }
-}
-);
+    );
 </script>
 
 <footer>
