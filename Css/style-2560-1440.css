@@ -2,8 +2,53 @@
 {
 body{
   font-family: "Calibri";
-  font-size:16px;
+  font-size: 20px;
   margin: 0;
+}
+
+nav{
+  opacity: 0.2;
+  position: fixed;
+  margin-top: 10px;
+  width: 100vw;
+  background-color: white;
+  height: 91px;
+  z-index: 1;
+}
+
+nav:hover, nav button:hover{
+  opacity: 1;
+}
+
+nav button{
+  background-color: #554434;
+  color: #988B7D;
+  border: none;
+  position: fixed;
+  top: 25px;
+  right: 10px;
+  padding: 10px 20px;
+}
+
+nav img{
+  width: 100px;
+}
+
+nav ul{
+  display: none;
+  padding: 0;
+  margin: -15px 0;
+  background-color: white;
+  opacity: 1;
+  text-align: center;
+}
+nav li{
+  list-style-type: none;
+}
+
+nav a{
+  text-decoration: none;
+  color: #1e1a17;
 }
 
 header,#big-picture, #about, #portfolio, #contact, #back-end-skills, #front-end-skills{
@@ -14,19 +59,19 @@ header{
   display: grid !important;
   margin-top: -10px;
   grid-template-columns: 5% 20% 10% 30% 10% 20% 5%;
-  grid-template-rows: 20vh 220px;
+  grid-template-rows: 20vh 270px;
 }
 
 #big-picture{
   grid-column: 1/8;
   grid-row: 1/4;
-  width: 100vw;
+  width: 100%;
 }
 
 #picture{
   grid-column: 2/7;
   grid-row: 1/4;
-  width: 100%;
+  width: 100vw;
   height: 450px;
   filter: brightness(0.2);
 }
@@ -34,40 +79,44 @@ header{
 header h1{
   border: solid 10px #776656;
   letter-spacing: 3px;
-  font-size: 40px;
+  font-size: 50px;
   text-align: center;
   color: #554434;
-  grid-column: 4;
+  grid-column: 3/6;
   grid-row: 2;
   filter: brightness(1);
 }
 
 header h1 span{
-  font-size: 29px;
+  font-size: 30px;
 }
 
 #about{
   display: grid;
   grid-template-columns: 10% 15% 25% 25% 15% 10%;
-  grid-template-rows: 300px 434px 300px;
+  grid-template-rows: minmax(20vh,auto) 651px minmax(20vh,auto);
   background-color: #1e1a17;
 }
 
 #about-me{
-  grid-column: 3/5;
+  grid-column: 2/6;
   grid-row: 2;
   display: grid;
   grid-template-columns: 50% 50%;
   border: 5px solid #ddccb8;
 }
 
+#about-me:hover, #about-me-info:hover{
+  border: 5px solid #544739;
+}
+
 #small-picture{
-  margin: 65px auto;
+  margin: 97px auto;
   grid-column: 1;
   grid-row: 1;
   width: auto;
-  max-width: 300px;
-  height: 300px;
+  max-width: 450px;
+  height: 450px;
   filter: brightness(1);
   border-radius: 50%;
 }
@@ -80,25 +129,25 @@ header h1 span{
 #about-me-text h1{
   color: #ddccb8;
   font-family: kalam;
-  font-size: 45px;
-  -webkit-margin-before: 0.1em;
-  -webkit-margin-after: 0.1em;
+  font-size: 65px;
+  margin-top: 0.1em;
+  margin-bottom: 0.1em;
 }
 
 #about-me-text h5{
   color: #A99B8C;
   font-weight: 500;
-  font-size: 20px;
-  -webkit-margin-before: 0em;
-  -webkit-margin-after: 0em;
+  font-size: 30px;
+  margin-top: 0em;
+  margin-bottom: 0em;
 }
 
 #about-me-info{
-  grid-column: 3/5;
+  grid-column: 2/6;
   grid-row: 2;
   display: grid;
   grid-template-columns: 50% 50%;
-  border: 5px solid #ddccb8;
+  border: 5px solid #544739;
   display: none;
 }
 
@@ -111,12 +160,12 @@ header h1 span{
 background-color: #3D3631;
 display: grid;
 grid-template-columns: 12% 10% 1% 10% 1% 10% 1% 10% 1% 10% 1% 10% 1% 10% 12%;
-grid-template-rows:  14% 5% 5% 14% 1% 14% 10% 4% 5% 14% 14%;
+grid-template-rows:  14vh 5vh 5vh 14vh 1vh 14vh 10vh 4vh 5vh 14vh 14vh;
 }
 
 #my-skills{
-  -webkit-margin-before: 0.2em;
-  -webkit-margin-after: 0.2em;
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
   text-align: center;
   grid-column: 7/10;
   grid-row:2;
@@ -125,10 +174,10 @@ grid-template-rows:  14% 5% 5% 14% 1% 14% 10% 4% 5% 14% 14%;
 #HTML5, #jQuery, #JS, #GitHub, #RWD, #AJAX, #PhotoShop, #CSS, #SASS, #Bootstrap, #BEM, #Wordpress, #PHP, #MySQL, #Oracle, #CSharp, #React, #Laravel, #Angular, #Visual-Studio-Code, #MySQL-Workbench, #phpMyAdmin{
   display: grid;
   grid-template-columns: 20% 60% 20%;
-  grid-template-rows:  70% 0% 30%;
+  grid-template-rows:  90% 0% 30%;
   opacity: 0.3;
   transition-duration: 1s;
-  font-size: 3.1vh;
+  font-size:  1.8vw;
 }
 
 #HTML5:hover, #jQuery:hover, #JS:hover, #GitHub:hover, #RWD:hover, #AJAX:hover, #PhotoShop:hover, #CSS:hover, #SASS:hover, #Bootstrap:hover, #BEM:hover, #Wordpress:hover, #PHP:hover, #MySQL:hover, #Oracle:hover, #CSharp:hover, #React:hover, #Laravel:hover, #Angular:hover, #Visual-Studio-Code:hover, #MySQL-Workbench:hover, #phpMyAdmin:hover{
@@ -136,7 +185,7 @@ grid-template-rows:  14% 5% 5% 14% 1% 14% 10% 4% 5% 14% 14%;
 }
 
 #HTML5 img, #jQuery img, #JS img, #GitHub img, #RWD img, #AJAX img, #PhotoShop img, #CSS img, #SASS img, #Bootstrap img, #BEM img, #Wordpress img, #PHP img, #MySQL img, #Oracle img, #CSharp img, #React img, #Laravel img, #Angular img, #Visual-Studio-Code img, #MySQL-Workbench img, #phpMyAdmin img{
-  width: 95%;
+  width: 100%;
   grid-column: 2;
   grid-row: 1;
 }
@@ -310,24 +359,24 @@ grid-template-rows:  14% 5% 5% 14% 1% 14% 10% 4% 5% 14% 14%;
 #my-skills, #my-frontend-aim, #my-backend-aim, #my-program-skills, #my-portfolio, #my-portfolio-end{
   color: #1e1a17;
   font-size: 40px;
-  -webkit-margin-before: 0em;
-  -webkit-margin-after: 0em;
+  margin-top: 0em;
+  margin-bottom: 0em;
   text-align: center;
-  grid-column: 4/13;
+  grid-column: 3/14;
 }
 
 #back-end-skills{
   background-color: #5B534A;
   display: grid;
   grid-template-columns: 12% 10% 1% 10% 1% 10% 1% 10% 1% 10% 1% 10% 1% 10% 12%;
-  grid-template-rows:  10% 5% 5% 14% 5% 4% 5% 14% 5% 4% 5% 14% 10%;
+  grid-template-rows:  10vh 5vh 5vh 14vh 5vh 4vh 5vh 14vh 5vh 4vh 5vh 14vh 10vh;
 }
 
 #portfolio{
   background-color: #7A6F64;
   padding: 0 6% 0 6%;
   display: grid;
-  grid-template-rows: 20% 5% 10% 30% 10% 5% 20%;
+  grid-template-rows: 15vh 5vh 10vh 30vh 20vh 5vh 15vh;
 }
 
 #my-projects{
@@ -348,7 +397,7 @@ grid-template-rows:  14% 5% 5% 14% 1% 14% 10% 4% 5% 14% 14%;
 
 #project-a-img{
   width: 100%;
-  height: 300px;
+  height: 400px;
   opacity: 1;
   display: block;
   transition: .5s ease;
@@ -357,7 +406,7 @@ grid-template-rows:  14% 5% 5% 14% 1% 14% 10% 4% 5% 14% 14%;
 
 #project-img{
   width: 100%;
-  height: 300px;
+  height: 400px;
   border: 2px solid #1e1a17;
 }
 
@@ -368,10 +417,10 @@ grid-template-rows:  14% 5% 5% 14% 1% 14% 10% 4% 5% 14% 14%;
 #description{
   transition: .5s ease;
   opacity: 0;
-  height: 50%;
+  height: 65%;
   width: 90%;
   position: absolute;
-  top: 30%;
+  top: 36%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -379,13 +428,13 @@ grid-template-rows:  14% 5% 5% 14% 1% 14% 10% 4% 5% 14% 14%;
 }
 
 .p6{
-  font-size: 14px;
-  -webkit-margin-before: 0em;
-  -webkit-margin-after: 1em;
+  font-size: 20px;
+  margin-top: 0em;
+  margin-bottom: 1em;
 }
 
 .p1{
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .text{
@@ -419,12 +468,11 @@ grid-template-rows:  14% 5% 5% 14% 1% 14% 10% 4% 5% 14% 14%;
   grid-row: 6;
 }
 
-
 #contact{
   background-color: #988B7D;
   display: grid;
   grid-template-rows: 15vh 100px 500px;
-  grid-template-columns: 15% 15% 40% 30%;
+  grid-template-columns: 5% 5% 80% 10%;
 }
 
 .contact-title{
@@ -433,8 +481,12 @@ grid-template-rows:  14% 5% 5% 14% 1% 14% 10% 4% 5% 14% 14%;
   text-align: center;
   font-size: 80px;
   color: #1e1a17;
-  -webkit-margin-before: 0em;
-  -webkit-margin-after: 0em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+
+.contact-title:hover{
+  color: #554434;
 }
 
 .contact-form{
@@ -470,9 +522,9 @@ grid-template-rows:  14% 5% 5% 14% 1% 14% 10% 4% 5% 14% 14%;
   background-color: #ddccb8;
   color: #1e1a17;
   border: none;
-  border-bottom: 3px solid #ddccb8;
   border-bottom: 3px solid #bbaa96;
   border-radius: 10px;
+  font-size: 1.8vw;
 }
 
 .contact-form button{
@@ -481,10 +533,25 @@ grid-template-rows:  14% 5% 5% 14% 1% 14% 10% 4% 5% 14% 14%;
   font-size: 25px;
   font-weight: bold;
   border: none;
-  border-bottom: 3px solid #988B7D;
-  border-bottom: 3px solid #76695B;
   border-bottom: 3px solid #544739;
   border-radius: 10px;
+}
+
+::-webkit-input-placeholder{ /* Chrome/Opera/Safari */
+  font-size: 1.6vw;
+  text-align: center;
+}
+::-moz-placeholder{ /* Firefox 19+ */
+  font-size: 1.6vw;
+  text-align: center;
+}
+:-ms-input-placeholder{ /* IE 10+ */
+  font-size: 1.6vw;
+  text-align: center;
+}
+:-moz-placeholder{ /* Firefox 18- */
+  font-size: 1.6vw;
+  text-align: center;
 }
 
 .errors{
@@ -523,7 +590,7 @@ footer img{
 }
 
 footer p{
-  -webkit-margin-before: 35px;
+  margin-top: 35px;
   grid-column: 4;
   color: white;
   text-align: center;

@@ -67,13 +67,13 @@ if(isset($_POST['email']))
 </script>
 
 <header>
-<img id="big-picture" src="../Img/photo.jpg"/>
-<!--
-<img id="big-picture" src="../Img/photo.jpeg"/>
-<img id="big-picture" src="../Img/code.jpg"/>
-<img id="small-picture" src="../Img/me.png"/>
--->
-<h1>Rafał Jarek<BR><span>JUNIOR FRONT-END<BR>DEVELOPER</span></h1>
+    <img id="big-picture" src="../Img/photo.jpg"/>
+    <!--
+    <img id="big-picture" src="../Img/photo.jpeg"/>
+    <img id="big-picture" src="../Img/code.jpg"/>
+    <img id="small-picture" src="../Img/me.png"/>
+    -->
+    <h1>Rafał Jarek<BR><span>JUNIOR FRONT-END<BR>DEVELOPER</span></h1>
 </header>
 
 <section id="about">
@@ -242,7 +242,7 @@ if(isset($_POST['email']))
 </section>
 
 <script>
-    $("[id$='end-skills']").children().click(function()
+    $("[id$='end-skills']").children().hover(function()
     {
         if ($(this).css('transform') == 'none') {
         $(this).css({'transform': 'rotatey(360deg)'});
@@ -302,7 +302,7 @@ if(isset($_POST['email']))
             </a>
         </div>
 
-        <div id="my-projects-container">
+        <div class="project-4-th" id="my-projects-container">
             <a id="project-a-img" href="#project-a-img">
                 <img id="project-img" src="../Img/wkrotce.png" class="future-project"></img>
                 <div id="description">

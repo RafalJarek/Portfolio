@@ -94,7 +94,7 @@ header h1 span{
 #about{
   display: grid;
   grid-template-columns: 5vw 90vw 5vw;
-  grid-template-rows: 15vh 434px 15vh;
+  grid-template-rows: minmax(10vh,auto) 434px minmax(10vh,auto);
   background-color: #1e1a17;
 }
 
