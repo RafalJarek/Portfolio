@@ -50,9 +50,10 @@ nav a{
   color: #1e1a17;
 }
 
-
 header,#big-picture, #about, #portfolio, #contact, #back-end-skills, #front-end-skills{
   min-height: 100vh;
+  background: linear-gradient(#1e1a17 , #7A6F64);
+  background-attachment: fixed;
 }
 
 header{
@@ -95,7 +96,6 @@ header h1 span{
   display: grid;
   grid-template-columns: 5% 90% 5%;
   grid-template-rows: minmax(15vh,auto) 434px minmax(15vh,auto);
-  background-color: #1e1a17;
 }
 
 #about-me{
@@ -153,10 +153,9 @@ header h1 span{
 }
 
 #front-end-skills{
-background-color: #3D3631;
-display: grid;
-grid-template-columns: 5% 12% 1% 12% 1% 12% 1% 12% 1% 12% 1% 12% 1% 12% 5%;
-grid-template-rows:  14vh 5vh 5vh 14vh 1vh 14vh 10vh 4vh 5vh 14vh 14vh;
+  display: grid;
+  grid-template-columns: 5% 12% 1% 12% 1% 12% 1% 12% 1% 12% 1% 12% 1% 12% 5%;
+  grid-template-rows:  14vh 5vh 5vh 14vh 1vh 14vh 10vh 4vh 5vh 14vh 14vh;
 }
 
 #my-skills{
@@ -193,7 +192,7 @@ grid-template-rows:  14vh 5vh 5vh 14vh 1vh 14vh 10vh 4vh 5vh 14vh 14vh;
 }
 
 #HTML5 #s0, #jQuery #s0, #JS #s0, #GitHub #s0, #RWD #s0, #AJAX #s0, #PhotoShop #s0, #CSS #s0, #SASS #s0, #Bootstrap #s0, #BEM #s0, #Wordpress #s0, #PHP #s0, #MySQL #s0, #Oracle #s0, #CSharp #s0, #React #s0, #Laravel #s0, #Angular #s0, #Visual-Studio-Code #s0, #MySQL-Workbench #s0, #phpMyAdmin #s0{
-  color:gray;
+  color: #c1c1c1;
 }
 
 #HTML5, #CSS, #RWD, #jQuery, #PHP, #MySQL, #Oracle, #CSharp{
@@ -362,14 +361,12 @@ grid-template-rows:  14vh 5vh 5vh 14vh 1vh 14vh 10vh 4vh 5vh 14vh 14vh;
 }
 
 #back-end-skills{
-  background-color: #5B534A;
   display: grid;
   grid-template-columns: 5vw 12vw 1vw 12vw 1vw 12vw 1vw 12vw 1vw 12vw 1vw 12vw 1vw 12vw 5vw;
   grid-template-rows:  10vh 5vh 5vh 14vh 5vh 4vh 5vh 14vh 5vh 4vh 5vh 14vh 10vh;
 }
 
 #portfolio{
-  background-color: #7A6F64;
   padding: 0 20% 0 20%;
   display: grid;
   grid-template-rows: 20% 5% 10% 30% 10% 5% 20%;
@@ -476,7 +473,6 @@ opacity:0.2;
 }
 
 #contact{
-  background-color: #988B7D;
   display: grid;
   grid-template-rows: 10vh 100px 500px;
   grid-template-columns: 5% 5% 80% 10%;

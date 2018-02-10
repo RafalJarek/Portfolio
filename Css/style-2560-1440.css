@@ -12,7 +12,7 @@ nav{
   margin-top: 10px;
   width: 100vw;
   background-color: white;
-  height: 91px;
+  height: 75px;
   z-index: 1;
 }
 
@@ -25,13 +25,14 @@ nav button{
   color: #988B7D;
   border: none;
   position: fixed;
-  top: 25px;
+  top: 18px;
   right: 10px;
   padding: 10px 20px;
 }
 
 nav img{
-  width: 100px;
+  margin-top: 5px;
+  width: 75px;
 }
 
 nav ul{
@@ -53,6 +54,8 @@ nav a{
 
 header,#big-picture, #about, #portfolio, #contact, #back-end-skills, #front-end-skills{
   min-height: 100vh;
+  background: linear-gradient(#1e1a17 , #7A6F64);
+  background-attachment: fixed;
 }
 
 header{
@@ -95,7 +98,6 @@ header h1 span{
   display: grid;
   grid-template-columns: 10% 15% 25% 25% 15% 10%;
   grid-template-rows: minmax(20vh,auto) 651px minmax(20vh,auto);
-  background-color: #1e1a17;
 }
 
 #about-me{
@@ -107,7 +109,7 @@ header h1 span{
 }
 
 #about-me:hover, #about-me-info:hover{
-  border: 5px solid #544739;
+  border: 5px solid #1e1a17;
 }
 
 #small-picture{
@@ -157,10 +159,9 @@ header h1 span{
 }
 
 #front-end-skills{
-background-color: #3D3631;
-display: grid;
-grid-template-columns: 12% 10% 1% 10% 1% 10% 1% 10% 1% 10% 1% 10% 1% 10% 12%;
-grid-template-rows:  14vh 5vh 5vh 14vh 1vh 14vh 10vh 4vh 5vh 14vh 14vh;
+  display: grid;
+  grid-template-columns: 12% 10% 1% 10% 1% 10% 1% 10% 1% 10% 1% 10% 1% 10% 12%;
+  grid-template-rows:  14vh 5vh 5vh 14vh 1vh 14vh 10vh 4vh 5vh 14vh 14vh;
 }
 
 #my-skills{
@@ -197,7 +198,7 @@ grid-template-rows:  14vh 5vh 5vh 14vh 1vh 14vh 10vh 4vh 5vh 14vh 14vh;
 }
 
 #HTML5 #s0, #jQuery #s0, #JS #s0, #GitHub #s0, #RWD #s0, #AJAX #s0, #PhotoShop #s0, #CSS #s0, #SASS #s0, #Bootstrap #s0, #BEM #s0, #Wordpress #s0, #PHP #s0, #MySQL #s0, #Oracle #s0, #CSharp #s0, #React #s0, #Laravel #s0, #Angular #s0, #Visual-Studio-Code #s0, #MySQL-Workbench #s0, #phpMyAdmin #s0{
-  color:gray;
+  color: #c1c1c1;
 }
 
 #HTML5, #CSS, #RWD, #jQuery, #PHP, #MySQL, #Oracle, #CSharp{
@@ -366,14 +367,12 @@ grid-template-rows:  14vh 5vh 5vh 14vh 1vh 14vh 10vh 4vh 5vh 14vh 14vh;
 }
 
 #back-end-skills{
-  background-color: #5B534A;
   display: grid;
   grid-template-columns: 12% 10% 1% 10% 1% 10% 1% 10% 1% 10% 1% 10% 1% 10% 12%;
   grid-template-rows:  10vh 5vh 5vh 14vh 5vh 4vh 5vh 14vh 5vh 4vh 5vh 14vh 10vh;
 }
 
 #portfolio{
-  background-color: #7A6F64;
   padding: 0 6% 0 6%;
   display: grid;
   grid-template-rows: 15vh 5vh 10vh 30vh 20vh 5vh 15vh;
@@ -397,7 +396,7 @@ grid-template-rows:  14vh 5vh 5vh 14vh 1vh 14vh 10vh 4vh 5vh 14vh 14vh;
 
 #project-a-img{
   width: 100%;
-  height: 400px;
+  height: 300px;
   opacity: 1;
   display: block;
   transition: .5s ease;
@@ -406,7 +405,7 @@ grid-template-rows:  14vh 5vh 5vh 14vh 1vh 14vh 10vh 4vh 5vh 14vh 14vh;
 
 #project-img{
   width: 100%;
-  height: 400px;
+  height: 300px;
   border: 2px solid #1e1a17;
 }
 
@@ -469,7 +468,6 @@ grid-template-rows:  14vh 5vh 5vh 14vh 1vh 14vh 10vh 4vh 5vh 14vh 14vh;
 }
 
 #contact{
-  background-color: #988B7D;
   display: grid;
   grid-template-rows: 15vh 100px 500px;
   grid-template-columns: 5% 5% 80% 10%;

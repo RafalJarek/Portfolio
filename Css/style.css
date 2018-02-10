@@ -42,7 +42,7 @@ header h1{
   display: grid;
   grid-template-columns: 10% 15% 25% 25% 15% 10%;
   grid-template-rows: 300px 434px 300px;
-  background-color: #1e1a17;
+   
 }
 
 #about-me{
@@ -139,7 +139,7 @@ grid-template-rows:  14% 5% 5% 14% 1% 14% 10% 4% 5% 14% 14%;
 }
 
 #HTML5 #s0, #jQuery #s0, #JS #s0, #GitHub #s0, #RWD #s0, #AJAX #s0, #PhotoShop #s0, #CSS #s0, #SASS #s0, #Bootstrap #s0, #BEM #s0, #Wordpress #s0, #PHP #s0, #MySQL #s0, #Oracle #s0, #CSharp #s0, #React #s0, #Laravel #s0, #Angular #s0, #Visual-Studio-Code #s0, #MySQL-Workbench #s0, #phpMyAdmin #s0{
-  color:gray;
+  color: #c1c1c1;
 }
 
 #HTML5, #CSS, #RWD, #jQuery, #PHP, #MySQL, #Oracle, #CSharp{
