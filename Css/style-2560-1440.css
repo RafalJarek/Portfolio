@@ -416,10 +416,10 @@ header h1 span{
 #description{
   transition: .5s ease;
   opacity: 0;
-  height: 65%;
+  height: 60%;
   width: 90%;
   position: absolute;
-  top: 36%;
+  top: 34%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -427,13 +427,13 @@ header h1 span{
 }
 
 .p6{
-  font-size: 20px;
+  font-size: 16px;
   margin-top: 0em;
   margin-bottom: 1em;
 }
 
 .p1{
-  font-size: 30px;
+  font-size: 24px;
 }
 
 .text{
@@ -594,7 +594,7 @@ footer p{
   text-align: center;
 }
 
-.linkedin{
+.CV{
   margin: 20px 0;
   width: 100%;
   grid-column: 6;

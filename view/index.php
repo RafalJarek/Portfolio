@@ -27,7 +27,7 @@ if(isset($_POST['email']))
         document.getElementById("i-recaptcha").submit();
     }
 </script>
-<title>Lisia Hurtownia Obuwia</title>
+<title>Rafał Jarek - Portfolio</title>
 </head>
 
 <body>
@@ -42,6 +42,8 @@ if(isset($_POST['email']))
         <li><a href="#back-end-skills">Umiejętności z back-end</a></li>
         <li><a href="#portfolio">Portfolio</a></li>
         <li><a href="#contact">Kontakt</a></li>
+        <li><a href="http://localhost/portfolio/Img/CV-Rafal-Jarek.pdf">Moje CV</a></li>
+        <li><a href="https://github.com/RafalJarek">Mój Github</a></li>
     </ul>
 </nav>
 
@@ -94,13 +96,12 @@ if(isset($_POST['email']))
     <section id="about-me-info">
         <section id="about-me-text">
             <h1>Witam,</h1>
-            <h5><span style="margin-left:80px;"> </span>Nazywam się Rafał Jarek. Mam 24 lata. Całe swoje dotychczasowe życie spędziłem przy komputerze. 
-                Fakt ten pomógł mi w decyzji podjęcia studiów w tym kierunku. Od października 2013 roku żyję w Krakowie i studiuje Informatykę 
-                na pierwszym stopniu studiów na Politechnice Krakowskiej na wydziale Fizyki, Matematyki i Informatyki. Od października ubiegłego 
-                roku jestem narzeczonym mojego skarba o imieniu Karolina. Pierwszy konkretny kontakt z aplikacjami internetowymi pojawił się na 
-                przedmiocie "Projektowanie aplikacji internetowych" i od razu stwierdziłem, że to jest to co chcę robić w życiu. Obecnie przygotowuję 
-                się do egzaminu inżynierskiego, do którego przystępuję w przyszłym tygodniu. W tym momencie poszukuję pracy w zawodzie oraz pracuję 
-                nad różnymi projektami dla siebie.
+            <h5><span style="margin-left:80px;"> </span>Nazywam się Rafał Jarek. Mam 24 lata. Całe swoje dotychczasowe życie spędziłem przy komputerze.
+                Fakt ten pomógł mi w decyzji podjęcia studiów w tym kierunku. Od 2013 roku mieszkam w Krakowie. 1 lutego 2018 roku zdobyłem tytuł inżyniera
+                informatyki na Politechnice Krakowskiej na wydziale Fizyki, Matematyki i Informatyki. Od października ubiegłego roku jestem narzeczonym
+                mojego skarba o imieniu Karolina. Pierwszy konkretny kontakt z aplikacjami internetowymi pojawił się na przedmiocie "Projektowanie aplikacji
+                internetowych" i od razu stwierdziłem, że to jest to co chcę robić w życiu. Obecnie przede wszystkim doszkalam swoje umiejętności tworząc
+                różne porjekty dla siebie oraz poszukuję pracy jako stażysta bądź junior front-end deweloper.
         </section>
     </section>
 
@@ -406,7 +407,7 @@ if(isset($_POST['email']))
 <footer>
     <img src="../Img/RJ_white.png">
     <p>Copyright &copy 2018 Rafał Jarek</p>
-    <a class="linkedin" href="http://localhost/portfolio/Img/cv-rafal-jarek-junior-front-end-developer.pdf"><img src="../Img/linkedin.png"></a>
+    <a class="CV" href="http://rafaljarek.000webhostapp.com/Img/CV-Rafal-Jarek.pdf"><img src="../Img/CV.png"></a>
     <a class="github" target="_blank" href="https://github.com/RafalJarek"><img src="../Img/git_white.png"></a>
 </footer>
 <!--
