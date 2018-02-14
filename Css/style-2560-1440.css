@@ -161,7 +161,7 @@ header h1 span{
 #front-end-skills{
   display: grid;
   grid-template-columns: 12% 10% 1% 10% 1% 10% 1% 10% 1% 10% 1% 10% 1% 10% 12%;
-  grid-template-rows:  14vh 5vh 5vh 14vh 1vh 14vh 10vh 4vh 5vh 14vh 14vh;
+  grid-template-rows:  12vh 5vh 5vh 14vh 5vh 14vh 10vh 4vh 5vh 14vh 12vh;
 }
 
 #my-skills{
@@ -205,7 +205,7 @@ header h1 span{
   grid-row:4;
 }
 
-#GitHub, #JS, #AJAX{
+#GitHub, #JS, #AJAX, #Wordpress{
   grid-row:6;
 }
 
@@ -213,7 +213,7 @@ header h1 span{
   grid-row:8;
 }
 
-#SASS, #Bootstrap, #BEM, #Wordpress{
+#SASS, #Bootstrap, #BEM{
   grid-row:10;
 }
 
@@ -221,7 +221,7 @@ header h1 span{
   grid-row:12;
 }
 
-#HTML5, #PhotoShop, #SASS, #PHP{
+#HTML5, #GitHub, #PhotoShop, #PHP{
   grid-column: 2;
 }
 
@@ -233,19 +233,23 @@ header h1 span{
   color: #242238;
 }
 
+#PHP #s1{
+  color: #8993be;
+}
+
+#GitHub #s1{
+  color: #0d2636;
+}
+
+#SASS, #React{
+  grid-column: 4;
+}
+
 /*
 #SASS #s1{
   color: #de78ab;
 }
 */
-
-#PHP #s1{
-  color: #8993be;
-}
-
-#React, #GitHub{
-  grid-column: 4;
-}
 
 /*
 #React #s1{
@@ -253,11 +257,7 @@ header h1 span{
 }
 */
 
-#GitHub #s1{
-  color: #0d2636;
-}
-
-#CSS, #Bootstrap, #MySQL, #Visual-Studio-Code{
+#CSS, #AJAX, #MySQL, #Visual-Studio-Code{
   grid-column: 6;
 }
 
@@ -265,11 +265,9 @@ header h1 span{
   color: #1979BD;
 }
 
-/*
-#Bootstrap #s1{
-  color: #553c7c;
+#AJAX #s1{
+  color: #478DC3;
 }
-*/
 
 #MySQL #s1{
   color: #e48d00;
@@ -279,9 +277,15 @@ header h1 span{
   color: #038fd6;
 }
 
-#Laravel, #AJAX{
+#Bootstrap, #Laravel{
   grid-column: 8;
 }
+
+/*
+#Bootstrap #s1{
+  color: #553c7c;
+}
+*/
 
 /*
 #Laravel #s1{
@@ -289,16 +293,16 @@ header h1 span{
 }
 */
 
-#AJAX #s1{
-  color: #478DC3;
-}
-
-#RWD, #BEM, #Oracle, #MySQL-Workbench{
+#RWD, #JS, #Oracle, #MySQL-Workbench{
   grid-column: 10;
 }
 
 #RWD #s1{
   color: #2af1d7;
+}
+
+#JS #s1{
+  color: #f1bf26;
 }
 
 #Oracle #s1{
@@ -309,7 +313,7 @@ header h1 span{
   color: #007190;
 }
 
-#Angular, #JS{
+#BEM, #Angular{
   grid-column: 12;
 }
 
@@ -319,10 +323,6 @@ header h1 span{
 }
 */
 
-#JS #s1{
-  color: #f1bf26;
-}
-
 #jQuery, #Wordpress, #CSharp, #phpMyAdmin{
   grid-column: 14;
 }
@@ -331,11 +331,9 @@ header h1 span{
   color: #1979BD;
 }
 
-/*
 #Wordpress #s1{
   color: #21759b;
 }
-*/
 
 #CSharp #s1{
   color: #9b4f96;

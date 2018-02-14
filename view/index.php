@@ -20,6 +20,7 @@ if(isset($_POST['email']))
 <meta charset="utf-8"/>
 <?php require_once "../PHP/style.php"?>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="icon" type="image/png" href="../Img/RJ.png">
 <script type="text/javascript" src="https://code.jquery.com/jquery-git.js"></script>
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <script>
@@ -156,6 +157,11 @@ if(isset($_POST['email']))
             <?php echo $skill1; ?>
         </div>
 
+        <div id="Wordpress">
+            <img src="../Img/wordpress.png">
+            <?php echo $skill1; ?>
+        </div>
+
         <h1 id="my-frontend-aim">Moje cele edukacyjne</h1>
 
         <div id="SASS">
@@ -170,11 +176,6 @@ if(isset($_POST['email']))
 
         <div id="BEM">
             <img src="../Img/bem.png">
-            <?php echo $skill0; ?>
-        </div>
-
-        <div id="Wordpress">
-            <img src="../Img/wordpress.png">
             <?php echo $skill0; ?>
         </div>
 </section>
