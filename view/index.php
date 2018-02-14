@@ -277,16 +277,20 @@ if(isset($_POST['email']))
         </div>
 
         <div id="my-projects-container">
-            <a id="project-a-img" href="#project-a-img">
-                <img id="project-img" src="../Img/wkrotce.png" class="future-project"></img>
+        <a id="project-a-img" target="_blank" href="https://rj-blog.000webhostapp.com/">
+                <img id="project-img" src="../Img/blog.jpg"></img>
                 <div id="description">
                     <div class="text">
-                        <p class="p1">Już niebawem</p>
+                        <p class="p6">Wykorzystane technologie:</p>
+                        <p class="p1">Wordpress + MySQL</p>
+                        <p class="p6">Wykorzystane programy:</p>
+                        <p class="p1">Photoshop + GitHub</p>
                     </div>
                 </div>
             </a>
-            <a id="project-a-title" href="#project-a-img">
-                <h2>Już niebawem</h2>
+
+            <a id="project-a-title" target="_blank" href="https://rj-blog.000webhostapp.com/">
+                <h2>Blog internetowy oparty o WordPress</h2>
             </a>
         </div>
 
